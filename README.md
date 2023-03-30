@@ -3,7 +3,7 @@
 
 
 # GIFCapture
-A tool to capture GIFs quickly and easily directly from your screen!
+A lightweight tool to capture GIFs quickly and easily directly from your screen!
 
 
 
