@@ -1,0 +1,19 @@
+QGroupBox {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 10pt;
+  padding: 12px;
+}
+
+QCheckBox::indicator {
+  width: 32px;
+  height: 32px;
+}
+
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: top left;
+  padding-left: 12px;
+  background-color: qlineargradient(0, 0, 0, 1, 0 #ff0ece, 1 #ffffff);
+}
