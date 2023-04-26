@@ -26,7 +26,7 @@ class MainWindow(wgs.QWidget):
 
         self.setMinimumSize(self.desktop_width, self.desktop_height)
         self.setWindowFlags(
-            Qt.WindowType.FramelessWindowHint | Qt.WindowType.Tool)  # |
+            Qt.WindowType.FramelessWindowHint | Qt.WindowType.Tool | Qt.WindowType.WindowStaysOnTopHint)  # |
         self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
 
         self.locked = False
